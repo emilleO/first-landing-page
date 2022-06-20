@@ -1,0 +1,140 @@
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+    font-weight: bolder;
+    color: white;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    color: lightgrey;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.top-container {
+    display: flex;
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20%;
+    padding: 32px;
+}
+
+.hero-text {
+    font-weight: bolder;
+    font-size: 24px;
+    color: white;
+    
+}
+
+.text {
+    font-size: 14px;
+    color: grey;
+    padding: 8px;
+}
+
+.top-container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+
+.top-container-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.top-container-right img {
+    height: auto;
+    max-width: 100%;
+}
+
+.box-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+    padding: 24px 48px;
+}
+
+.box-container div {
+    color: #1F2937;
+    padding: 8px;
+}
+
+.box-container div div {
+    color: gray;
+    width: 150px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 16px 32px;
+}
+
+.quote-container {
+    background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    padding: 24px 48px;
+}
+
+.quote-container p {
+    width: 400px;
+}
+
+.bottom-container {
+    font-family: 'Roboto', sans-serif;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert {
+    background-color: rgb(4, 92, 255);
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 24px 48px;
+    height: 10%;
+}
